@@ -1,0 +1,46 @@
+section.forms{
+    display: flex;
+    flex-direction: row;
+}
+section.forms div.form{
+    margin: 0 auto;
+    background-color: darkcyan;
+    width: 400px;
+    height: 250px;
+}
+section.forms div.form>input,select, button {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    outline: none;
+}
+
+section.funds{
+    display: flex;
+    overflow-x: auto;
+    
+}
+
+section.funds>div.amount, div.percentage, div.expected{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(126, 124, 124);
+    text-align: center;
+    margin: 30px 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
